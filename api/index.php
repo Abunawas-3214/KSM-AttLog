@@ -8,7 +8,7 @@ if (isset($decoded_data['type']) and isset($decoded_data['cloud_id'])) {
     $type       = $decoded_data['type'];
     $cloud_id   = $decoded_data['cloud_id'];
 
-    $url = "https://script.google.com/macros/s/AKfycbzxF2mSNkAlNdOYZaQQ-WbEd3idqTz3YWo8W6UTiJYDqiEOb37naT7yefhPAfMsOXO1/exec?action=attLog"; // Replace with your target URL
+    $url = "https://script.google.com/macros/s/AKfycbz5hse5tkadDtOQMfiw77wY1d8C_vFF29TWJq3jcdqxVxl2NSFUJKAfoJCwQigFInsm/exec?action=attLog"; // Replace with your target URL
 
     $ch = curl_init();
 
