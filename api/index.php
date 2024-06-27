@@ -21,5 +21,5 @@ if (isset($decoded_data['type']) and isset($decoded_data['cloud_id'])) {
 
     curl_close($ch);
 
-    echo $result;
+    echo $encoded_data;
 }
